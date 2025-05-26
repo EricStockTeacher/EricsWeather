@@ -1,0 +1,10 @@
+{
+    "town": "St John's",
+    "forecast": [
+      {"day":"Monday", "temp":"4 degrees C", "precip":"1 mm", "uv":"2 (low)"},
+      {"day":"Tuesday", "temp":"10 degrees C", "precip":"10 mm", "uv":"2 (low)"},
+      {"day":"Wednesday", "temp":"12 degrees C", "precip":"0 mm", "uv":"4 (low)"},
+      {"day":"Thursday", "temp":"4 degrees C", "precip":"3 mm", "uv":"3 (low)"},
+      {"day":"Friday", "temp":"7 degrees C", "precip":"3 mm", "uv":"5 (low)"}
+    ]
+}
