@@ -1,15 +1,13 @@
-import Weather from './Weather.jsx'
 
+function Forecast({data, changeCity, city}) {
 
-function Forecast({data}) {
-    
     return (
         <>
-        {
-            data.map( (weatherDay) => {
-                return <Weather day={weatherDay.day} temp={weatherDay.temp} precip={weatherDay.precip} uv={weatherDay.uv}/>
-            })
-        }
+            <button onClick={changeCity}>{city}</button>
+            <p>Temp: {data.current_weather.temperature}</p>
+            <p>Wind: {data.current_weather.windspeed}</p>
+            <p>Day: {data.current_weather.time}</p>
+        
         </>
     )
 }
